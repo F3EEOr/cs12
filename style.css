@@ -10,7 +10,35 @@ body {
 }
 
 .container {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-container {
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.info-text {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+  color: #555;
 }
 
 .download-btn {
@@ -26,4 +54,12 @@ body {
 
 .download-btn:hover {
   background-color: #2980b9;
+}
+
+.alita-btn {
+  margin-top: 10px;
+}
+
+.avatar-btn {
+  margin-top: 10px;
 }
